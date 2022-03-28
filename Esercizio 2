@@ -1,0 +1,8 @@
+#Esercizio 2
+w = "andare"
+t = input("Enter the test word: ")
+wr = t.endswith("are")
+if (wr==False):
+    print ("The two words do not rhyme")
+else:
+    print("The two words rhyme")
