@@ -1,0 +1,14 @@
+#Exercise 3
+
+def f_min(a,b,c): 
+    m = 0
+    if((float(a)<float(b)) and (float(a)<float(c))):
+            m=a
+    elif((float(b)<float(a)) and (float(b)<float(c))):
+            m=b
+    else:
+            m=c       
+    print("The minimum is: ",m)
+print(f_min(input("Enter a: "),input("Enter b: "),input("Enter c: ")))
+
+
