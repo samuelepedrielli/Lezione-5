@@ -1,0 +1,90 @@
+#Exercise  6
+#Operator:+
+a = input("Enter a real number: ")
+b = input("Enter another real number: ")
+s= float(a)+float(b) #summing reals
+print("The sum is: ", s) 
+
+a = input("Enter a Name: ")
+b = input("Enter a Surname: ")
+s=a[0]+b[0] #summing strings
+print("Your initials are ", s.upper())
+
+a = True
+b = True
+print(a+b) #summing booleans
+
+#Operator:*
+a = input("Enter a real number: ")
+b = input("Enter another real number: ")
+s= float(a)*float(b) #multiplying reals
+print("The product is: ", s) 
+
+print("A way of indicating sleeping beings: ")
+s="Z"*10 #multiplying strings and reals
+print(s)
+
+a = True
+b = True
+print(a*b) #mutiplying booleans (way of simulate the logical operantor AND)
+
+#Operator:-
+a = input("Enter a real number: ")
+b = input("Enter another real number: ")
+s= float(a)-float(b) #subtracting reals
+print("The difference is: ", s) 
+
+a = input("Enter an integer number: ")
+b = input("Enter another integer number: ")
+s= int(a)-int(b) #subtracting integers
+print("The difference is: ", s)
+
+a = True
+b = True
+print(a-b)#subtracting booleans
+
+#Operator/
+a = input("Enter a real number: ")
+b = input("Enter another real number: ")
+s= float(a)/float(b) #dividing reals
+print("The ratio is: ", s) 
+
+a = input("Enter an integer number: ")
+b = input("Enter another integer number: ")
+s= int(a)/int(b) #dividing integers
+print("The ratio is: ", s) 
+
+a = False
+b = False
+print(a/b) #dividing booleans is not a well defined operation
+
+#Operator//
+a = input("Enter a real number: ")
+b = input("Enter another real number: ")
+s= float(a)//float(b) #integer-dividing reals
+print("The ratio is: ", s) 
+
+a = input("Enter an integer number: ")
+b = input("Enter another integer number: ")
+s= int(a)//int(b) #integer-dividing integers
+print("The ratio is: ", s) 
+
+a = False
+b = False
+print(a//b) #integer-dividing booleans is not a well defined operation
+
+#Operator%
+a = input("Enter a real number: ")
+b = input("Enter another real number: ")
+s= float(a)%float(b) #reminder of the division for reals
+print("The ratio is: ", s) 
+
+a = input("Enter an integer number: ")
+b = input("Enter another integer number: ")
+s= int(a)%int(b) #reminder of the division for integers
+print("The ratio is: ", s) 
+
+a = False
+b = False
+print(a%b) #reminder of the division booleans, not well defined and trivial when well defined
+
