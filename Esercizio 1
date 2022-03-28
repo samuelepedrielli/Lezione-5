@@ -1,0 +1,8 @@
+#Exercise 1
+
+d = input("Enter number of days: ")
+h = input("Enter number of hours: ")
+m = input("Enter number of minutes: ")
+s = float(m)*60+float(h)*60*60+float(d)*24*60*60
+print("The number of corresponding seconds is: ",s)
+
