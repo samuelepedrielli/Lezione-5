@@ -1,0 +1,8 @@
+#Exercise 4
+
+s='Puoi modificare la tua scelta, in qualsiasi momento, accedendo al pannello delle preferenze'
+print(s.upper())
+print(s.count('c'))
+if(int(s.find('momento'))>0):
+    print("Yes")
+else: print("No")
