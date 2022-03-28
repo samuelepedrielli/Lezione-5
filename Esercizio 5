@@ -1,0 +1,20 @@
+#Exercise 5
+
+#Example 1
+w ="quinto esercizio"
+print(w.title()) #returns the string but with words starting with an uppercase character and the remaining characters are lowercase
+#Example 2
+name = "Samuele"
+print("My name is {}".format(name))#returns the string inserting the keyword "name"
+#Example 3
+print('{2}, {1}, {0}'.format('a', 'b', 'c')) #returns the string in the desired order
+#Example 4
+c = 3+4j
+a = abs(c)
+s ="The module of the complex number {0} is {1}".format(c,a) #returns the complex number and the result of the operation
+print(s)
+#Example 5
+s = "Oggi è %s %d %s" % ("Venerdì",18,"Marzo") #instead of using .format() one can format with the character %, following the syntax: %[flags][width][.precision]type
+print(s)
+
+
